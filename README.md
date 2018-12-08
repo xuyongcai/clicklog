@@ -20,6 +20,8 @@ upload->clean->hivesql->ip->mysql
 
 
 # 快速运行
-1.把access.log文件copy到log目录下
+1.用mysql数据库创建clicklog.upflow表，字段：（ip string, sum string）
 
-2.运行job里的脚本(打包使用文件放到azkaban运行)
+2.把access.log文件copy到log目录下
+
+3.运行job里的脚本(打包使用文件放到azkaban运行)
