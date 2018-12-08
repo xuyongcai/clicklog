@@ -1,0 +1,4 @@
+#clean.job
+type=command
+dependencies=upload
+command=bash clean.sh

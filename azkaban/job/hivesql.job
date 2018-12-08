@@ -1,0 +1,4 @@
+#hivesql.job
+type=command
+dependencies=clean
+command=bash hivesql.sh

@@ -1,0 +1,3 @@
+#upload.job
+type=command
+command=bash uploadFile2hdfs.sh

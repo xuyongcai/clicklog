@@ -1,0 +1,4 @@
+#ip.job
+type=command
+dependencies=hivesql
+command=bash ip.sh

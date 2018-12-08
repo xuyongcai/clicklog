@@ -1,0 +1,4 @@
+#mysql.job
+type=command
+dependencies=ip
+command=bash mysql.sh
